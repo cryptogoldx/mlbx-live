@@ -9,7 +9,7 @@ st.title("🧠⚾ MLBX LIVE - AI + Gematria Baseball Decoder")
 
 @st.cache_resource
 def load_model():
-    return joblib.load("MLBX_Gematria_Model_CloudCompatible.pkl")
+    return joblib.load("MLBX_Gematria_Model_Logistic.pkl")
 
 model = load_model()
 
